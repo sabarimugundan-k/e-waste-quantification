@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { uploadData } from '../services/api';
 
 const Upload = () => {
-    const [text, setText] = useState('[\n  {\n    "region": "Urban",\n    "year": 2025,\n    "sales_import_tonnes": 1200,\n    "population_millions": 5.5,\n    "disposal_amount_tonnes": 400\n  }\n]');
+    const [text, setText] = useState('[\n  {\n    "region": "Pollachi, Tamil Nadu",\n    "year": 2025,\n    "sales_import_tonnes": 80,\n    "population_millions": 0.15,\n    "disposal_amount_tonnes": 30\n  }\n]');
 
     const handleUpload = async () => {
         try {

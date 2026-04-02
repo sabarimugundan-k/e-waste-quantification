@@ -27,7 +27,7 @@ const MapComponent = () => {
     }, []);
 
     return (
-        <MapContainer center={[20.5937, 78.9629]} zoom={4} style={{ height: "100%", width: "100%", borderRadius: "8px" }}>
+        <MapContainer center={[10.6609, 77.0048]} zoom={10} style={{ height: "100%", width: "100%", borderRadius: "8px" }}>
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'

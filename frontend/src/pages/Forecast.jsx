@@ -4,7 +4,7 @@ import Chart from '../components/Chart';
 
 const Forecast = () => {
     const [forecasts, setForecasts] = useState([]);
-    const [input, setInput] = useState({ region: 'Urban', forecast_year: 2026, sales_import_tonnes: 1500, population_millions: 6.0 });
+    const [input, setInput] = useState({ region: 'Pollachi, Tamil Nadu', forecast_year: 2026, sales_import_tonnes: 90, population_millions: 0.16 });
 
     const loadPredictions = async () => {
         try {
