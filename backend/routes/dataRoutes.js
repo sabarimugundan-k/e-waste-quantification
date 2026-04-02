@@ -1,0 +1,9 @@
+const express = require('express');
+const router = express.Router();
+const dataController = require('../controllers/dataController');
+
+router.post('/upload', dataController.uploadData);
+router.get('/data', dataController.getData);
+router.get('/map-data', dataController.getMapData);
+
+module.exports = router;
